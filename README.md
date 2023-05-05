@@ -1,7 +1,8 @@
-#WonderShare
+# **WonderShare**
+
 This is a website project that I built as part of my portfolio/for a client to showcase my web development skills. The website is a simple one-page responsive design that is desigbned for a SEO (Search Engine optimization) website.
 
-##Technologies Used
+## Technologies Used
 The website was built using the following technologies:
 
 HTML
@@ -18,7 +19,7 @@ A "Service" section that lists technical features offered (disfunctional)
 A "Recources" section that showcases all components with getting started in SEO (disfunctional)
 A "Sign Up" section that includes Login to get strated with the site (disfunctional)
 
-##Installation
+## Installation
 To install and run the project locally, follow these steps:
 
 Clone the repository to your local machine:
@@ -29,14 +30,14 @@ Open the project folder in your code editor of choice.
 
 Open the index.html file in your web browser.
 
-##Usage
+## Usage
 Feel free to use this project as a template for your own website, or as a reference for building your own web development skills.
 
-##Contributing
+## Contributing
 If you find a bug or would like to contribute to the project, please open a GitHub issue or submit a pull request with your suggested changes.
 
-##Credits
+## Credits
 This project was built by Solomon Oduyebo.
 
-##License
+## License
 This project is not lisceneced. 
