@@ -5,30 +5,30 @@ This is a website project that I built as part of my portfolio/for a client to s
 ## Technologies Used
 The website was built using the following technologies:
 
-HTML
-CSS
-JavaScript
-Bootstrap
-Features
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## Features
 The website includes the following features:
 
 Responsive design that looks good on desktop and mobile devices
-A navigation bar that allows users to jump to different sections of the page (disfunctional)
-A "About Us" section that includes a brief introduction and a photo (disfunctional)
-A "Service" section that lists technical features offered (disfunctional)
-A "Recources" section that showcases all components with getting started in SEO (disfunctional)
-A "Sign Up" section that includes Login to get strated with the site (disfunctional)
+- A navigation bar that allows users to jump to different sections of the page (disfunctional)
+- A "About Us" section that includes a brief introduction and a photo (disfunctional)
+- A "Service" section that lists technical features offered (disfunctional)
+- A "Recources" section that showcases all components with getting started in SEO (disfunctional)
+- A "Sign Up" section that includes Login to get strated with the site (disfunctional)
 
 ## Installation
 To install and run the project locally, follow these steps:
 
-Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 bash
-Copy code
 git clone https://github.com/SolomonGM/WonderShare.git
-Open the project folder in your code editor of choice.
+2. Open the project folder in your code editor of choice.
 
-Open the index.html file in your web browser.
+3. Open the index.html file in your web browser.
 
 ## Usage
 Feel free to use this project as a template for your own website, or as a reference for building your own web development skills.
