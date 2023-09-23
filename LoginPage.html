@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="RegPage.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Log In</h1>
+        <form method="post">
+            <div class="text_field">
+                <!--<small>Error Message</small>-->
+                <input type="email" id="emailInput" placeholder="Email" required>
+                <span></span>
+            </div>
+            <div class="text_field">
+                <input type="password" placeholder="Password" required>
+                <span></span>
+            </div>
+            <h3 id="redirect">
+                <a href="RegPage.html" target="_self">Create an Account</a>
+            </h3>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <div class="g-recaptcha" data-sitekey="6Lefe8MmAAAAABfOux6X4UJsf6l06PIBl-CI0ytP"></div>
+                <div id="btn">
+                    <input type="submit" id="LoginBtn" value="Login">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="PageController.js"></script>
+    <script src="RegPage.js"></script>
+    <style>
+        div.btn-group{
+            display: inline-block;
+        }
+        .btn-group #btn input[type="submit"]{
+            margin: 10px;
+        }
+        .g-recaptcha {
+          margin-left: 10px; 
+          transform: scale(0.8); /* Adjust the scale value as per your requirements */
+        }
+      </style>
+</body>
+</html>

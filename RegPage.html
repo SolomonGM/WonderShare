@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="RegPage.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Register Now</h1>
+        <form method="post">
+            <div class="text_field">
+                <input type="text" placeholder="Full Name" required>
+                <span></span>
+            </div>
+            <div class="text_field">
+                <!--<small>Error Message</small>-->
+                <input type="email" id="emailInput" placeholder="Email" required>
+                <span></span>
+            </div>
+            <div class="text_field">
+                <input type="password" placeholder="Password" required>
+                <span></span>
+            </div>
+            <h3 id="redirect">
+                <a href="LoginPage.html" target="_self">I already have an account</a>
+            </h3>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" id="btncheck1" autocomplete="off">
+                <h3 id="accept">
+                    I accept the Statements in <a href="#">Terms Of Service</a>
+                </h3>
+                <div id="btn">
+                    <input type="submit" id="registerBtn" value="Create Account">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="PageController.js"></script>
+    <script src="RegPage.js"></script>
+</body>
+</html>
