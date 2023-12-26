@@ -1,6 +1,6 @@
 # **WonderShare**
 
-This is a website project that I built as part of my portfolio/for a client to showcase my web development skills. The website is a simple one-page responsive design that is desigbned for a SEO (Search Engine optimization) website.
+This is a website project that I built as part of my portfolio/for a client to showcase my web development skills. The website is a simple one-page responsive design that is designed for a SEO (Search Engine optimization) website.
 
 ## Technologies Used
 The website was built using the following technologies:
